@@ -9,11 +9,11 @@ body {
 /* ===== STRONA GŁÓWNA ===== */
 
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 0 100px;
 }
 
 .hero-left {
@@ -21,40 +21,27 @@ body {
 }
 
 .hero-left h1 {
-    font-size: 70px;
+    font-size: 60px;
     color: orange;
     text-shadow: 0 0 20px orange;
 }
 
 .hero-left p {
-    font-size: 24px;
+    font-size: 22px;
     color: #dddddd;
     margin-bottom: 40px;
 }
 
 .hero-right img {
-    width: 250px;
+    width: 220px;
     height: auto;
     animation: float 3s ease-in-out infinite;
+    transition: 0.5s;
 }
 
 .hero-right img:hover {
     transform: scale(1.05);
 }
-
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-15px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-
 
 .enter-btn {
     background-color: orange;
@@ -70,6 +57,20 @@ body {
 .enter-btn:hover {
     transform: scale(1.1);
     box-shadow: 0 0 25px orange;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /* ===== STRONA LOGOWANIA ===== */

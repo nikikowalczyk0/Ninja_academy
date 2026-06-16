@@ -44,18 +44,14 @@ body {
 }
 
 .enter-btn {
+    display: inline-block;
     background: orange;
     color: white;
-    border: none;
-    outline: none;
+    text-decoration: none;
     padding: 18px 40px;
     border-radius: 15px;
     font-size: 20px;
-    cursor: pointer;
     transition: 0.3s;
-
-    appearance: none;
-    -webkit-appearance: none;
 }
 
 .enter-btn:hover {

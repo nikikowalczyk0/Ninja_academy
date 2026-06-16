@@ -45,19 +45,21 @@ body {
 
 .enter-btn {
     display: inline-block;
-    background: orange;
+    background-color: orange;
     color: white;
     text-decoration: none;
     padding: 18px 40px;
     border-radius: 15px;
     font-size: 20px;
-    transition: 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .enter-btn:hover {
-    background: darkorange;
-    transform: scale(1.1);
+    background-color: darkorange;
     box-shadow: 0 0 25px orange;
+    transform: scale(1.1);
 }
 
 @keyframes float {

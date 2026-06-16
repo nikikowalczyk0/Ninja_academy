@@ -33,7 +33,7 @@ body {
 }
 
 .hero-right img {
-    width: 220px;
+    width: 300px;
     height: auto;
     animation: float 3s ease-in-out infinite;
     transition: 0.5s;
